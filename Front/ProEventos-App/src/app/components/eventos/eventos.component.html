@@ -1,6 +1,4 @@
-<h2>Eventos</h2>
-
-<hr>
+<app-titulo [titulo]="'Evento'"></app-titulo>
 
 <div class="row row-cols-lg-auto g-3 align-items-center">
   <div>
@@ -65,7 +63,7 @@
 <ng-template #template>
   <div class="modal-body text-center">
     <p>Tem certeza que deseja deletar o evento??</p>
-    <button type="button" class="btn btn-default" (click)="confirm()" >Sim</button>
-    <button type="button" class="btn btn-primary" (click)="decline()" >Não</button>
+    <button type="button" class="btn btn-default" (click)="confirm()">Sim</button>
+    <button type="button" class="btn btn-primary" (click)="decline()">Não</button>
   </div>
 </ng-template>
